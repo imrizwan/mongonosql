@@ -1,5 +1,5 @@
 import app from "./app";
-const PORT = process.env.PORT || 8080;
+const PORT = 8000;
 
 
 //this is for running the server
