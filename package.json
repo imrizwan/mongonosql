@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev ./dev/server.ts",
-    "start": "nodemon ./prod/server.js",
+    "start": "node ./prod/server.js",
     "prod": "npm run build && npm run start",
     "test": "mocha --timeout 85000 -r ts-node/register dev/test/**/*.spec.ts"
   },
